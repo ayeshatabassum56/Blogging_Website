@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:4000/api/v1/user/login",
+        "https://burgundy-springbok-gear.cyclic.app/api/v1/user/login",
         { email, password, role },
         {
           withCredentials: true,
